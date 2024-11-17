@@ -1,0 +1,15 @@
+[package]
+name = "InGameItemRentalMarket"
+version = "1.0.0"
+authors = []
+
+[addresses]
+InGameItemRentalMarket = '0xb7c6fb89ea4e1621084082d2983edf6158be1e79d127ef825c47f8075ee8e074'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
